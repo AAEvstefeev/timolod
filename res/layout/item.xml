@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+   <TextView
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:id="@+id/date"
+        android:textColor="#24AFD9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <LinearLayout
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+        <Button
+            android:layout_gravity="left"
+        android:gravity="left"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Button" />
+
+      
+    </LinearLayout>
+
+    <TextView
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
